@@ -1,0 +1,28 @@
+
+.tspace-60 {
+    margin-top: 60px;
+}
+
+.post-wrapper {
+    background-color: $mid-purple;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: #9F9BC1;
+    ul li {
+        list-style: none;
+        padding: 20px 20px;
+        transition: .2s all ease-in-out;
+        //border-bottom: .1px solid $light-purple;
+
+        &:last-child {
+            border-bottom: none;
+        }
+
+        &:hover {
+            background-color: #3B3371;
+            //border-radius: 2px;
+            color: white;
+        }
+    }
+}
