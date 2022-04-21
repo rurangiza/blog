@@ -1,0 +1,65 @@
+
+// Imports
+
+//@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+
+// Variables
+
+$heading-font: inter, sans-serif;
+$paragraph-font: Poppins, sans-serif;
+
+
+// Headings and Paragraphs
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $heading-font;
+    font-weight: bold;
+    //margin-bottom: 0.5em;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+
+p {
+    font-family: $paragraph-font;
+}
+
+.sub-title {
+    font-size: 28px;
+    line-height: 1.2;
+    color: $light-purple;
+}
+
+.sub-text {
+    font-size: 13px;
+    font-weight: 500;
+    color: $light-purple;
+}
+
+.micro-text {
+    font-size: 11px;
+    color: $light-purple;
+}
