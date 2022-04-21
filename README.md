@@ -1,2 +1,3 @@
-# blog
-Personal blog, portfolio site and canvas for my thoughts and reflections.
+# Personal Blog
+
+![UI](/img/Blog%20UI.png)
